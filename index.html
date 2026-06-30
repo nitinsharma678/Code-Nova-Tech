@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNova Tech | Design • Develop • Deliver</title>
+    
+    <link rel="icon" type="image/png" href="logo code nova.png">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home" class="logo-link">
+                    <img src="Images/logo code nova.png" alt="Code Nova Logo" class="nav-logo">
+                    <h2>CodeNova <span>Tech</span></h2>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact" class="btn primary-btn btn-small">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        
+        <div id="particles-js"></div>
+        
+        <div class="container hero-content">
+            <h3 class="animate-up delay-1">WELCOME TO CODE NOVA TECH</h3>
+            <h1 class="animate-up delay-2">We Build.<br><span class="highlight">You Grow.</span></h1>
+            <p class="animate-up delay-3">Your One-Stop Solution For Digital Growth. <br><strong>Design • Develop • Deliver</strong></p>
+            <div class="hero-buttons animate-up delay-4">
+                <a href="https://wa.me/919084711324" target="_blank" class="btn primary-btn"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                <a href="#services" class="btn secondary-btn">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Digital <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code service-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>High-performing, responsive frontend and backend websites tailored for your business.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>Logo & Graphic Design</h3>
+                    <p>Creative and professional branding, thumbnails, and stunning photo editing.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-video service-icon"></i>
+                    <h3>Video Editing</h3>
+                    <p>Engaging video editing for YouTube, Instagram Reels, and corporate presentations.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>SEO & Social Media</h3>
+                    <p>Drive traffic, build authority, and manage community engagement effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About <span>Us</span></h2>
+                <p>At Code Nova Tech, we believe in turning your vision into innovation. Whether you are a startup looking for a brand identity or an established business needing a digital revamp, we provide end-to-end solutions. We deliver on time, never compromise on quality, and ensure 100% client satisfaction.</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <i class="fas fa-headset stat-icon"></i>
+                        <h4>24/7</h4>
+                        <p>Support</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-check-circle stat-icon"></i>
+                        <h4>100%</h4>
+                        <p>Quality Work</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-bolt stat-icon"></i>
+                        <h4>Fast</h4>
+                        <p>Delivery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work <span>Together!</span></h2>
+            <p class="contact-sub">Have a project in mind? Message us directly or fill out the form below.</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+91 9084711324</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>codenovatech2026@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Agra, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <select id="service" required>
+                        <option value="" disabled selected>Select a Service</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Video Editing">Video Editing</option>
+                        <option value="SEO & Marketing">SEO & Marketing</option>
+                    </select>
+                    <textarea id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/919084711324" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="container">
+            <img src="Images/logo code nova.png" alt="Code Nova Tech" class="footer-logo">
+            <p>Design • Develop • Deliver</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 CodeNova Tech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
